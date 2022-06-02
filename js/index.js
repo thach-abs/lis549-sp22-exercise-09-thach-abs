@@ -1,6 +1,6 @@
 //Log out a message to show you've got JavaScript running
 
-
+console.log("script running!");
 
 
 //Define a variable `myName` and log it out
