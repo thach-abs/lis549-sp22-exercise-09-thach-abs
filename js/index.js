@@ -47,10 +47,10 @@ h1Element.text("Interactive Pet Viewer");
 
 let footerElement= $("footer");
 console.log(footerElement);
+footerElement.html() //HELP
 
 
 
-//why does it take away interactive????
 
 //hints
 
