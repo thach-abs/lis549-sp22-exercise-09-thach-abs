@@ -45,6 +45,12 @@ h1Element.text("Interactive Pet Viewer");
 //Create a variable `footerElement` that refers to the `<footer>`, then
 //change the HTML content of that element
 
+let footerElement= $("footer");
+console.log(footerElement);
+footerElement.html(<small>All images from <a href="https://unsplash.com/">unsplash.com</a></small>);
+
+//why does it take away interactive????
+
 //hints
 
 
