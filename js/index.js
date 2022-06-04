@@ -59,6 +59,7 @@ footerElement.html("<small>All images from <a href='https://unsplash.com/'>unspl
 //Add the `active` class to the `#btnShowDogs` element
 
 $("#cats").css("display", "none");
+$("#btnShowDogs").addClass("active")
 
 
 //Add an event listener to the buttons to respond to click events.
