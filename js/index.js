@@ -47,7 +47,7 @@ h1Element.text("Interactive Pet Viewer");
 
 let footerElement= $("footer");
 console.log(footerElement);
-footerElement.html() //HELP
+footerElement.html("<small>All images from <a href='https://unsplash.com/'>unsplash.com</a></small>");
 
 
 
@@ -58,7 +58,7 @@ footerElement.html() //HELP
 //Change the CSS `display` property of the `#cats` element
 //Add the `active` class to the `#btnShowDogs` element
 
-
+$("#cats").css("display", "none");
 
 
 //Add an event listener to the buttons to respond to click events.
